@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+}
+
+.custom-shape-divider-top-1669253666 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1669253666 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1669253666 .shape-fill {
+  fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1669253666 svg {
+      width: calc(177% + 1.3px);
+      height: 95px;
+  }
+}
+
+main{
+  background: hsla(214, 31%, 43%, 1);
+  background: linear-gradient(90deg, hsla(214, 31%, 43%, 1) 0%, hsla(156, 33%, 50%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(214, 31%, 43%, 1) 0%, hsla(156, 33%, 50%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(214, 31%, 43%, 1) 0%, hsla(156, 33%, 50%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4c6990", endColorstr="#55a987", GradientType=1 );
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.mainCard {
+  width: 70vw;
+  margin-top: 10rem;
+  border-radius: 25px;
+  margin-bottom: 5rem;
+  background: hsla(2, 50%, 44%, 1);
+  background: linear-gradient(90deg, hsla(2, 50%, 44%, 1) 0%, hsla(240, 33%, 49%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(2, 50%, 44%, 1) 0%, hsla(240, 33%, 49%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(2, 50%, 44%, 1) 0%, hsla(240, 33%, 49%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A73B38", endColorstr="#5454A8", GradientType=1 );
+  padding: 25px;
+}
+
+.title {
+  font-family: 'Dosis', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 15px;
+}
+
+.inputForm {
+  border: none;
+  padding: 10px;
+  border: 1px solid #eee;
+  outline: none;
+  width: 84%;
+}
+
+.inputForm::placeholder {
+  padding: 0px;
+}
+
+.btnCreate {
+  padding: 10px 15px;
+  background: hsla(214, 31%, 43%, 1);
+  background: linear-gradient(90deg, hsla(214, 31%, 43%, 1) 0%, hsla(156, 33%, 50%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(214, 31%, 43%, 1) 0%, hsla(156, 33%, 50%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(214, 31%, 43%, 1) 0%, hsla(156, 33%, 50%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4c6990", endColorstr="#55a987", GradientType=1 );
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.cardsList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: scroll;
+  max-height: 60vh;
+  height: 60vh;
+}
+
+li{
+  color: #eee;
+  background: hsla(214, 31%, 43%, 1);
+  background: linear-gradient(90deg, hsla(214, 31%, 43%, 1) 0%, hsla(156, 33%, 50%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(214, 31%, 43%, 1) 0%, hsla(156, 33%, 50%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(214, 31%, 43%, 1) 0%, hsla(156, 33%, 50%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4c6990", endColorstr="#55a987", GradientType=1 );
+}
+
+.card {
+  width: 90%;
+  padding: 15px;
+  box-shadow: 2px 4px 4px 4px rgba(71, 71, 71, 0.16);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  margin: 5px 0px;
+  position: relative;
+}
+
+.task {
+  padding: 10px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: rgba(62, 161, 219, 1);
+}
+
+.completeIcon {
+  color: rgba(62, 161, 219, 1);
+}
+
+.trashIcon:hover {
+  color: #f00;
+}
+
+.deleteConfirmationPop {
+  position: relative;
+  background-color: rgba(255, 255, 255);
+  z-index: 99;
+  width: 100%;
+  top: -100px;
+  left: 0;
+}
+.deleteSpace {
+  position: relative;
+  width: 30%;
+}
+
+.noTasks {
+  font-size: 48px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: hsla(214, 31%, 43%, 1);
+  background: linear-gradient(90deg, hsla(214, 31%, 43%, 1) 0%, hsla(156, 33%, 50%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(214, 31%, 43%, 1) 0%, hsla(156, 33%, 50%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(214, 31%, 43%, 1) 0%, hsla(156, 33%, 50%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4c6990", endColorstr="#55a987", GradientType=1 );
+  color: #fff;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1669252101 svg {
+      width: calc(191% + 1.3px);
+      height: 150px;
+  }
+}
