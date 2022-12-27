@@ -14,6 +14,7 @@ export const addTask = (evento) => {
   const dateFormat = moment(date).format('DD/MM/YYYY');
 
   if (value === '' || date === '') {
+    alert('Debes ingresar una tarea y una fecha');
     return;
   }
 
