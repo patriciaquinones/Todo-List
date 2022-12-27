@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TODO App</title>
-    <link rel="icon" type="image/png" href="./assets/rocket.svg" />
+    <link rel="icon" type="image/png" href="./assets/tree.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Dosis&family=Open+Sans&family=Parisienne&display=swap"
@@ -40,6 +40,7 @@
               autocomplete="off"
               data-form-input
             />
+            <input class="dateInput" type="date" data-form-date placeholder="YYYY/MM/DD"/>
             <button type="submit" class="btnCreate" data-form-btn>
               Agregar <i class="fas fa-plus-circle"></i>
             </button>
@@ -49,6 +50,8 @@
         </ul>
       </div>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script type="module" src="script.js"></script>
     <footer>
       <p>Made with ❤️ by Patricia Quinones - All Rights Reserved &copy; 2022 </p>

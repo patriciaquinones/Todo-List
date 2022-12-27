@@ -80,11 +80,22 @@ form {
   padding: 10px;
   border: 1px solid #eee;
   outline: none;
-  width: 84%;
+  width: 67%;
+  border-radius: 5px;
 }
+
 
 .inputForm::placeholder {
   padding: 0px;
+}
+
+.dateInput{
+  border: 1px solid #eee;
+  outline: none;
+  padding: 10px;
+  width: 15%;
+  
+  border-radius: 5px;
 }
 
 .btnCreate {
@@ -99,6 +110,7 @@ form {
   border-radius: 5px;
   cursor: pointer;
   width: 150px;
+  height: 47px;
 }
 
 .cardsList {
@@ -170,6 +182,12 @@ li{
   font-size: 48px;
 }
 
+.date{
+  width: 100%;
+  padding: 15px;
+  color: #eee;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -182,6 +200,8 @@ footer {
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4c6990", endColorstr="#55a987", GradientType=1 );
   color: #fff;
 }
+
+
 
 /** For mobile devices **/
 @media (max-width: 767px) {
